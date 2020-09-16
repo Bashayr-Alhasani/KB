@@ -1,0 +1,113 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "New KB Site"
+theme = "kb-theme"
+
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+# render unsafe html
+[markup.goldmark.renderer]
+unsafe = true
+
+############################# Plugins ##############################
+
+# CSS Plugins
+[[params.plugins.css]]
+link = "plugins/bootstrap/bootstrap.min.css"
+[[params.plugins.css]]
+link = "plugins/themify-icons/themify-icons.css"
+[[params.plugins.css]]
+link = "plugins/search/auto-complete.css"
+[[params.plugins.css]]
+link = "plugins/featherlight/featherlight.min.css"
+
+# JS Plugins
+[[params.plugins.js]]
+link = "plugins/jQuery/jquery.min.js"
+[[params.plugins.js]]
+link = "plugins/bootstrap/bootstrap.min.js"
+[[params.plugins.js]]
+link = "plugins/masonry/masonry.min.js"
+[[params.plugins.js]]
+link = "plugins/featherlight/featherlight.min.js"
+[[params.plugins.js]]
+link = "plugins/clipboard/clipboard.min.js"
+[[params.plugins.js]]
+link = "plugins/match-height/jquery.matchHeight-min.js"
+[[params.plugins.js]]
+link = "plugins/search/auto-complete.js"
+[[params.plugins.js]]
+link = "plugins/search/search.js"
+[[params.plugins.js]]
+link = "plugins/search/lunr.min.js"
+[[params.plugins.js]]
+link = "plugins/search/fuse.min.js"
+[[params.plugins.js]]
+link = "plugins/search/mark.js"
+[[params.plugins.js]]
+link = "plugins/search/search-page.js"
+
+
+
+
+
+
+
+#################### default parameters ################################
+[params]
+logo = "images/logo1.png"
+logo2 = "images/logo.jpg"
+
+# Navigation button solid
+[params.navigation_button_solid]
+enable = true
+label = "Suggest"
+link = "suggest"
+
+  
+############################# social site ########################
+[[params.social]]
+title = "facebook"
+icon = "ti-facebook" 
+link = "#"
+
+[[params.social]]
+title = "twitter"
+icon = "ti-twitter-alt" 
+link = "#"
+
+
+[[params.social]]
+title = "linkedin"
+icon = "ti-linkedin" 
+link = "#"
+
+
+[Languages.en]
+languageName = "En"
+languageCode = "en-us"
+weight = 1
+home = "Home"
+
+# banner
+[Languages.en.banner]
+title = "Hello, what can we help you find?"
+subtitle = "Have questions? We're here for you. Find articles, help and advice."
+image = "images/Picture1.png"
+
+# suggestion
+[Languages.en.call_to_action]
+enable = true
+title = "Suggestions Are Welcome!"
+image = "images/Picture2.png"
+content = "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam"
+
+  # call to action button
+  [Languages.en.call_to_action.button]
+  enable = "true"
+  label = "Suggest!"
+  link = "suggest"
+
+

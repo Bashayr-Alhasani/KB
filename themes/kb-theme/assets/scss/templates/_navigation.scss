@@ -1,0 +1,49 @@
+.navigation {
+  transition: 0.2s ease;
+
+  &.nav-bg {
+    background: #4f008c;
+    @extend .shadow;
+    @include desktop {
+      top: -50px;
+    }
+  }
+
+  @include desktop {
+    .form-inline {
+      width: 100%;
+
+      input {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.nav-item {
+  margin: 0;
+  x .nav-link {
+    text-transform: capitalize;
+  }
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 20px;
+  font-size: 15px;
+  @include desktop {
+    padding: 10px;
+    display: block;
+  }
+}
+
+.white-bars {
+  color: white;
+}
