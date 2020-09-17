@@ -302,48 +302,6 @@ pre {
   }
 }
 
-.badge {
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-size: 15px;
-  padding: 5px 10px;
-
-  &.added {
-    background: #3778ff;
-    color: $white;
-  }
-
-  &.fixed {
-    background: #f54773;
-    color: $white;
-  }
-
-  &.changed {
-    background: #3aaa55;
-    color: $white;
-  }
-
-  &.depricated {
-    background: #343434;
-    color: $white;
-  }
-
-  &.removed {
-    background: #3bbfe4;
-    color: $white;
-  }
-
-  &.security {
-    background: #f53535;
-    color: $white;
-  }
-
-  &.unreleased {
-    background: #a037ff;
-    color: $white;
-  }
-}
-
 .collapse-wrapper {
   padding: 5px 15px;
 

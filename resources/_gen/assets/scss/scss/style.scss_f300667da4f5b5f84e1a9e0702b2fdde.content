@@ -491,33 +491,6 @@ pre {
 .form-group textarea.form-control {
   height: 100px; }
 
-.badge {
-  margin-bottom: 20px;
-  font-weight: 500;
-  font-size: 15px;
-  padding: 5px 10px; }
-  .badge.added {
-    background: #3778ff;
-    color: #fff; }
-  .badge.fixed {
-    background: #f54773;
-    color: #fff; }
-  .badge.changed {
-    background: #3aaa55;
-    color: #fff; }
-  .badge.depricated {
-    background: #343434;
-    color: #fff; }
-  .badge.removed {
-    background: #3bbfe4;
-    color: #fff; }
-  .badge.security {
-    background: #f53535;
-    color: #fff; }
-  .badge.unreleased {
-    background: #a037ff;
-    color: #fff; }
-
 .collapse-wrapper {
   padding: 5px 15px; }
   .collapse-wrapper .collapse-head {
